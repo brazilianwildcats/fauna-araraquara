@@ -48,7 +48,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "poLoNes — Fauna de Araraquara",
 	bio: "Registros da fauna silvestre e monitoramento com câmeras de trilha e documentação da biodiversidade local.",
 	links: [
