@@ -14,7 +14,7 @@ draft: false
 
 O projeto **Fauna Silvestre de Araraquara - SP - Brasil** reúne registros da fauna silvestre do município, incluindo quatro espécies de felinos nativos que venho monitorando por meio de câmeras de trilha, registros fotográficos e vídeos.
 
-Até 24 de setembro de 2026, o levantamento reunia centenas de registros dessas quatro espécies, permitindo acompanhar sua ocorrência e investigar diferentes padrões de atividade ao longo do tempo.
+Até 24 de setembro de 2026, o levantamento reunia **301 registros** dessas quatro espécies, permitindo acompanhar sua ocorrência e investigar diferentes padrões de atividade ao longo do tempo.
 
 ## Felinos registrados em Araraquara
 
@@ -56,7 +56,7 @@ A ferramenta permite realizar análises detalhadas, incluindo:
 
 **Acesse gratuitamente o aplicativo:**
 
-[https://bioposter.pages.dev/](https://bioposter.pages.dev/)
+[BioPoster – Aplicativo gratuito](https://bioposter.pages.dev/)
 
 ## Relatórios das quatro espécies
 
