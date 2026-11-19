@@ -1,6 +1,6 @@
 ---
 title: "BioPoster: Ferramenta para transformar dados do iNaturalist em relatórios visuais"
-published: 2026-11-19T16:00:00-03:00
+published: 2026-11-19T12:00:00-03:00
 description: "Conheça o BioPoster, uma ferramenta gratuita em fase beta que organiza arquivos CSV exportados do iNaturalist em cartazes padronizados com gráficos de sazonalidade e atividade."
 tags: ["BioPoster", "iNaturalist", "Ciência Cidadã", "Ferramentas", "Monitoramento"]
 category: "Ferramentas"
