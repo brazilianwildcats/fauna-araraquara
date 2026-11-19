@@ -68,5 +68,3 @@ Abaixo estão os relatórios detalhados de cada uma das quatro espécies, gerado
 - 🐈 **Gato-do-mato-pequeno (*Leopardus guttulus*)** — [Visualizar relatório](https://drive.google.com/file/d/1kDIGg25jHA_m9xSL8OJAFfbpbhrvB0jZ/view?usp=drive_link)
 
 ---
-
-@jhbarbosa @cnmodesto @rbatigalhia @enricotosto96 @andreferrari
