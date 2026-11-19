@@ -2,7 +2,7 @@
 title: "Registro da Fauna em Araraquara: São mais de 37 mil arquivos de animais"
 published: 2026-11-19T10:00:00-03:00
 description: "A evolução do monitoramento de fauna em Araraquara: de uma única câmera GardePro E5S a um acervo de 3,07 TB e mais de 37 mil registros de animais silvestres."
-image: "./ironwolf-pro-16tb.jpg"
+image: "./ironwolf-pro-16tb.png"
 tags: ["Acervo", "Armazenamento", "GardePro E5S", "Araraquara", "Bastidores"]
 category: "Bastidores"
 draft: false
@@ -16,7 +16,7 @@ Com o tempo, esse simples interesse se transformou em um verdadeiro passatempo d
 
 Ao longo dos anos, fui adquirindo novas câmeras e ampliando meu acervo. Hoje, em **12 de novembro de 2025**, acumulo **3,07 terabytes de registros** — são mais de **37 mil arquivos** exclusivamente de animais silvestres capturados pelas câmeras espalhadas na região de Araraquara.
 
-![Armazenamento dedicado para o acervo de monitoramento: HD Seagate IronWolf Pro 16TB](./ironwolf-pro-16tb.jpg)
+![Armazenamento dedicado para o acervo de monitoramento: HD Seagate IronWolf Pro 16TB](./ironwolf-pro-16tb.png)
 
 Infelizmente, não consigo publicar todos os registros: são muitos vídeos e incontáveis espécies diferentes.
 
