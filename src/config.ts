@@ -49,8 +49,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Erik — Fauna de Araraquara",
-	bio: "Registros da fauna silvestre na região de Araraquara, SP, desde 2021. Monitoramento com câmeras de trilha e documentação da biodiversidade local.",
+	name: "poLoNes — Fauna de Araraquara",
+	bio: "Registros da fauna silvestre e monitoramento com câmeras de trilha e documentação da biodiversidade local.",
 	links: [
 		{
 			name: "iNaturalist",
