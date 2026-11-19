@@ -8,7 +8,7 @@ category: "Bastidores"
 draft: false
 ---
 
-Em **4 de janeiro de 2020, às 07:12**, um estalo de curiosidade e paixão pela fauna silvestre se transformou em ação. Foi nesse exato momento que instalei a nossa primeiríssima câmera de trilha na região de Araraquara, interior de São Paulo. Naquela época, o projeto que hoje vocês conhecem era apenas um desejo de registrar o invisível e documentar a rica biodiversidade que resiste e habita os fragmentos de mata da nossa região.
+Em **agosto de 2020**, um estalo de curiosidade e paixão pela fauna silvestre se transformou em ação. Foi nesse exato momento que instalei a minha primeiríssima câmera de trilha na região de Araraquara, interior de São Paulo. Naquela época, o projeto que hoje vocês conhecem era apenas um desejo de registrar o invisível e documentar a rica biodiversidade que resiste e habita os fragmentos de mata da nossa região.
 
 Para dar esse pontapé inicial, apostei em um equipamento que, na época, precisei importar diretamente dos Estados Unidos por conta própria: a **GardePro E5**.
 
@@ -28,7 +28,7 @@ Começar com uma única câmera ensina muito sobre paciência e leitura de ambie
 
 Esse primeiro passo, dado há anos, foi a semente de tudo. O que começou com uma GardePro E5 importada e muita curiosidade hoje se transformou em um inventário contínuo e emocionante da nossa fauna local.
 
-Seja bem-vindo ao blog! Daqui para a frente, você vai acompanhar por aqui os frutos dessa jornada que começou lá atrás, no início de 2020. 
+Seja bem-vindo ao blog! Daqui para a frente, você vai acompanhar por aqui os frutos dessa jornada que começou lá atrás, em agosto de 2020. 
 
 ---
 
