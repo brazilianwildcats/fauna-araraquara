@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "Registros de câmeras de trilha e biodiversidade no interior de SP",
 	lang: "en",
 	themeColor: {
-		hue: 140, // Verde-floresta
+		hue: 150, // Verde-floresta
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
