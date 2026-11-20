@@ -1,0 +1,115 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+  pasta?: string;
+  imagens?: ImageMetadata[];
+  altPrefix?: string;
+}
+
+const {
+  pasta,
+  imagens: imagensManuais,
+  altPrefix = 'Registro de fauna',
+} = Astro.props;
+
+// Varre todas as imagens dentro de src/content/posts/**
+const todasImagens = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/content/posts/**/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}',
+  { eager: true }
+);
+
+let listaImagens: ImageMetadata[] = [];
+
+if (imagensManuais && imagensManuais.length > 0) {
+  listaImagens = imagensManuais;
+} else if (pasta) {
+  const prefixoCaminho = `/src/content/posts/${pasta}/`;
+
+  listaImagens = Object.entries(todasImagens)
+    .filter(([caminho]) => caminho.startsWith(prefixoCaminho))
+    .sort(([caminhoA], [caminhoB]) => caminhoA.localeCompare(caminhoB))
+    .map(([, modulo]) => modulo.default);
+}
+
+const total = listaImagens.length;
+---
+
+{total > 0 && (
+  <div
+    data-carrossel
+    data-total={total}
+    class="relative my-6 rounded-xl overflow-hidden bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 select-none"
+  >
+    <div
+      class="carrossel-track flex overflow-x-auto snap-x snap-mandatory scroll-smooth"
+      style="scrollbar-width: none;"
+    >
+      {listaImagens.map((img, index) => (
+        <div class="w-full shrink-0 snap-center flex items-center justify-center">
+          <Image
+            src={img}
+            alt={`${altPrefix} - Foto ${index + 1} de ${total}`}
+            class="w-full h-auto object-contain !my-0"
+            loading={index === 0 ? 'eager' : 'lazy'}
+          />
+        </div>
+      ))}
+    </div>
+
+    {total > 1 && (
+      <>
+        <button
+          type="button"
+          aria-label="Foto anterior"
+          class="carrossel-prev absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-black/60 hover:bg-black/80 text-white flex items-center justify-center text-2xl font-bold transition cursor-pointer shadow-md"
+        >
+          &#8249;
+        </button>
+
+        <button
+          type="button"
+          aria-label="Próxima foto"
+          class="carrossel-next absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-black/60 hover:bg-black/80 text-white flex items-center justify-center text-2xl font-bold transition cursor-pointer shadow-md"
+        >
+          &#8250;
+        </button>
+
+        <div class="carrossel-contador absolute bottom-3 right-3 px-2.5 py-1 rounded-md bg-black/65 text-white text-xs font-medium pointer-events-none">
+          1 / {total}
+        </div>
+      </>
+    )}
+  </div>
+)}
+
+<script>
+  document.querySelectorAll('[data-carrossel]').forEach((root) => {
+    const track = root.querySelector('.carrossel-track') as HTMLElement | null;
+    const prevBtn = root.querySelector('.carrossel-prev') as HTMLElement | null;
+    const nextBtn = root.querySelector('.carrossel-next') as HTMLElement | null;
+    const contador = root.querySelector('.carrossel-contador') as HTMLElement | null;
+    const total = Number(root.getAttribute('data-total') || 1);
+
+    if (!track) return;
+
+    const atualizarContador = () => {
+      if (!contador || !track.clientWidth) return;
+      const atual = Math.min(
+        total,
+        Math.max(1, Math.round(track.scrollLeft / track.clientWidth) + 1)
+      );
+      contador.textContent = `${atual} / ${total}`;
+    };
+
+    prevBtn?.addEventListener('click', () => {
+      track.scrollBy({ left: -track.clientWidth, behavior: 'smooth' });
+    });
+
+    nextBtn?.addEventListener('click', () => {
+      track.scrollBy({ left: track.clientWidth, behavior: 'smooth' });
+    });
+
+    track.addEventListener('scroll', atualizarContador, { passive: true });
+  });
+</script>

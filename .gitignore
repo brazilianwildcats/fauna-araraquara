@@ -29,3 +29,10 @@ yarn.lock
 # ide
 .idea
 *.iml
+
+# iNaturalist - arquivos locais e backups
+*.bak
+*.tmp
+
+# Downloads e dados locais do iNaturalist
+inat-download/
