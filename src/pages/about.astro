@@ -13,8 +13,11 @@ if (!aboutPost) {
 }
 
 const { Content } = await render(aboutPost);
+
+const description =
+	"Conheça o Fauna de Araraquara: projeto independente de monitoramento da fauna silvestre com câmeras de trilha, desde 2020, no interior de São Paulo.";
 ---
-<MainGridLayout title={i18n(I18nKey.about)} description={i18n(I18nKey.about)}>
+<MainGridLayout title={i18n(I18nKey.about)} description={description}>
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
         <div class="card-base z-10 px-9 py-6 relative w-full ">
             <Markdown class="mt-2">

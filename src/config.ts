@@ -9,7 +9,7 @@ import type {
 export const siteConfig: SiteConfig = {
 	title: "Fauna de Araraquara",
 	subtitle: "Registros de câmeras de trilha e biodiversidade no interior de SP",
-	lang: "en",
+	lang: "pt",
 	themeColor: {
 		hue: 150, // Verde-floresta
 		fixed: false, // Hide the theme color picker for visitors

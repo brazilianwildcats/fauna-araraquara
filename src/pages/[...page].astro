@@ -15,9 +15,12 @@ export const getStaticPaths = (async ({ paginate }) => {
 const { page } = Astro.props;
 
 const len = page.data.length;
+
+const description =
+	"Registros de câmeras de trilha e biodiversidade em Araraquara, SP: felinos silvestres, gato-do-mato-pequeno, onça-parda e outros animais do interior paulista.";
 ---
 
-<MainGridLayout>
+<MainGridLayout description={description}>
     <PostPage page={page}></PostPage>
     <Pagination class="mx-auto onload-animation" page={page} style={`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`}></Pagination>
 </MainGridLayout>

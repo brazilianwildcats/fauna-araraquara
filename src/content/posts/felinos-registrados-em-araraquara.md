@@ -1,5 +1,5 @@
 ---
-title: "Quatro espécies de felinos silvestres registradas em Araraquara (SP)"
+title: "Registros de câmera de trilha de quatro felinos silvestres nativos de Araraquara (SP): espécies, imagens e o que o monitoramento revela."
 published: 2026-11-19T12:00:00-03:00
 description: "Um levantamento dos registros de quatro espécies de felinos nativos de Araraquara, com análises e relatórios desenvolvidos a partir do monitoramento da fauna silvestre."
 image: "./gato-do-mato-pequeno.jpg"

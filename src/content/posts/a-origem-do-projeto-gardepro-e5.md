@@ -1,5 +1,5 @@
 ---
-title: "Como tudo começou: A minha primeira câmera de trilha (GardePro E5)"
+title: "Como uma câmera de trilha GardePro E5 importada em 2020 deu início ao monitoramento da fauna silvestre de Araraquara, no interior de São Paulo"
 published: 2026-11-19T07:12:00-03:00
 description: "A história de como uma única câmera importada em 2020 deu início ao monitoramento da fauna em Araraquara."
 image: "./gardepro-e5.png"
